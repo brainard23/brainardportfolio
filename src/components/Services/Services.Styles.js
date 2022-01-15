@@ -3,11 +3,14 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   display: flex;
   width: 100%;
-  height: 100vh;
+  height: 800px;
   overflow: hidden;
 
   @media screen and (max-width: 768px) {
     height: 850px;
+  }
+  @media screen and (max-width: 419px) {
+    height: 1200px;
   }
 `;
 
@@ -50,6 +53,11 @@ export const Skills = styled.div`
     p {
       padding-top: 20px;
       font-size: 1.5rem;
+    }
+    @media screen and (max-width: 419px) {
+      h1 {
+        font-size: 3.5rem;
+      }
     }
   }
 `;
@@ -103,5 +111,16 @@ export const Programming = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(100px, 2fr));
     grid-gap: 2rem;
     padding-top: 100px;
+  }
+  @media screen and (max-width: 419px) {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 1rem;
+    height: 50%;
+    margin: 0 auto;
+    padding-top: 0px;
+
+    div {
+      width: 90%;
+    }
   }
 `;

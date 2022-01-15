@@ -23,6 +23,11 @@ export const Wrapper = styled.div`
    margin: 0 auto;
    text-align: center;
   }
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
 `;
 
 export const Cards = styled.div`
