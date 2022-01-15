@@ -14,7 +14,7 @@ const AboutMe = () => {
           <div>
             <h3>Web Developer</h3>
             <p>
-              My name is Brainard Ordoña, a Web Developer. I am skilled in front
+              My name is Brainard Ordoña Handsome, a Web Developer. I am skilled in front
               end web development. I have great skills in HTML, CSS, Javascript,
               Wordpress and React Js. I was a virtual assistant for 2 years and
               a Customer Representative for 1 year.As a VA I managed multiple
