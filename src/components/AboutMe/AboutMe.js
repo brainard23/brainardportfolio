@@ -1,6 +1,5 @@
 import React from "react";
 import { Wrapper, RightColumn, LeftColumn } from "./AboutMe.Styles";
-import AboutMeImage from "../../images/AboutMe.jpg";
 import Button from "../Button";
 import resume from "../../images/Brainard Resume.pdf";
 const AboutMe = () => {
