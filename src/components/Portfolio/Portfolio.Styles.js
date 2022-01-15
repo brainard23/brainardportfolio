@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
     width: 100%;
     overflow: hidden;
     
+
 `;
 
 
@@ -82,7 +83,6 @@ export const Projects = styled.div`
         justify-content: center;
         align-items: center;
         align-content: center;
-
         img {
             width: 80%;
         }

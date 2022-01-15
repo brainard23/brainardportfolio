@@ -23,7 +23,6 @@ const AboutMe = () => {
             </p>
             <br />
             <p>
-              {" "}
               I decided to shift my career as a Web Developer because my dream
               was to become a developer. I am an undergrad in BSIT but this will
               not stop me to pursue my dream to be a developer. I used every

@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   border: 2px solid gray;
   background-color: #3f4b58;
   color: #000000;
+  text-align: left;
   h1 {
     letter-spacing: 10px;
     font-size: 3rem;
@@ -35,6 +36,10 @@ export const Wrapper = styled.div`
     form {
       height: 280px;
     }
+    h1 {
+      margin-bottom: 40px;
+    }
+
   }
 `;
 

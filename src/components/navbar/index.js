@@ -25,7 +25,7 @@ const Navbar = (props) => {
     <Sticky>
       <Wrapper>
         <Logo>
-          <img src={logo} alt="logo" />
+          <a href="#home"><img src={logo} alt="logo" /></a>
         </Logo>
         <Hamburger onClick={handleToggle}>
           <FontAwesomeIcon icon={toggle ? faMinus : faBars} />

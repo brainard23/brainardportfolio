@@ -47,7 +47,7 @@ const Portfolio = ({ slides }) => {
                 <Projects>
                   <img src={slider.images} alt="images" />
                   <div>
-                    <h1>Title: {slider.title}</h1>
+                    <h1>{slider.title}</h1>
                     <p>Technology used: {slider.used.join(", ")}</p>
                   </div>
                 </Projects>

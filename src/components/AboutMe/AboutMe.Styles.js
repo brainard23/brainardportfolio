@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    height: 1000px;
+    height: 1200px;
     width: 100%;
   }
 `;
@@ -82,8 +82,9 @@ export const LeftColumn = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    margin-top: 100px; 
+    margin: 100px auto 0 auto; 
     width: 90%;
+    
     h1 {
       font-size: 5rem;
       margin: 0 auto;
