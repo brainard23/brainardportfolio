@@ -1,7 +1,7 @@
 {
   "name": "myreactportfolio",
   "version": "0.1.0",
-  "homepage": "https://brainard23.github.io/brainardportfolio",
+  "homepage": "https://imakid14.github.io/react-portfolio.",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
