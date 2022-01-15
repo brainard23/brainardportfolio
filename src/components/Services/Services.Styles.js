@@ -120,7 +120,7 @@ export const Programming = styled.div`
     padding-top: 0px;
 
     div {
-      width: 90%;
+      width: 100%;
     }
   }
 `;

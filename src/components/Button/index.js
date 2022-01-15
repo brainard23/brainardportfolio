@@ -28,6 +28,9 @@ export const Btn = styled.button`
     font-weight: 600;
     cursor: pointer;
   }
+  @media screen and (max-width: 419px) {
+      width: 100%;
+    }
 `;
 
 export default Button;

@@ -70,6 +70,9 @@ export const Red = styled(Button)`
     100% {
       opacity: 1;
     }
+    @media screen and (max-width: 419px) {
+      width: 40%;
+    }
   }
 `;
 export default Hero;
