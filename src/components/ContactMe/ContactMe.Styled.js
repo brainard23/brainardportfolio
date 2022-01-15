@@ -39,7 +39,24 @@ export const Wrapper = styled.div`
     h1 {
       margin-bottom: 40px;
     }
-
+    @media screen and (max-width: 419px) {
+      h1 {
+        font-size: 3.5rem;
+        text-align: center;
+        margin: 0;
+      }
+      form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+         label {
+           font-size: 1rem;
+         }
+      }
+    }
   }
 `;
 
@@ -67,7 +84,18 @@ export const LeftColumn = styled.div`
     width: 80%;
     font-size: 15px;
   }
-
+  @media screen and (max-width: 419px) {
+    width: 100%;
+    padding: 10px;
+    input {
+      height: 22px;
+    }
+    button {
+    margin-top: 10px;
+    height: 20px;
+    width: 80%;
+    font-size: 1rem;
+  }
 `;
 
 export const RightColumn = styled.div`
@@ -84,5 +112,11 @@ export const RightColumn = styled.div`
   textarea {
     height: 80%;
     padding: 5px;
+  }
+  @media screen and (max-width: 419px) {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
   }
 `;
