@@ -57,6 +57,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
   height: 400px;
   width: 100%;
 `;
@@ -72,6 +73,7 @@ export const Programming = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 2fr));
   grid-gap: 8rem;
+  margin-bottom: 250px;
 
   div {
     display: flex;
