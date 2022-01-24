@@ -34,11 +34,11 @@ export const Header = styled.div`
   }
   @media screen and (max-width: 768px) {
     h1 {
-      font-size: 4.8rem;
+      font-size: 4rem;
     }
-  @media screen and (max-width: 419px) {
-      h1 { 
-        font-size: 3.5rem;
+    @media screen and (max-width: 419px) {
+      h1 {
+        font-size: 2rem;
       }
     }
   }
@@ -56,25 +56,6 @@ export const Projects = styled.div`
     width: 60%;
   }
 
-  div {
-    width: 40%;
-    padding-left: 20px;
-    padding-top: 20px;
-    text-align: left;
-    aling-content: left;
-    color: #0000;
-
-    h1 {
-      font-size: 5rem;
-      font-weight: 700;
-      margin-bottom: 5px;
-    }
-    p {
-      font-weight: 600;
-      font-size: 1.8rem;
-    }
-  }
-
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
@@ -84,9 +65,56 @@ export const Projects = styled.div`
     img {
       width: 80%;
     }
+  }
+`;
 
-    div {
-      width: 80%;
+export const Content = styled.div`
+  width: 40%;
+  padding-left: 20px;
+  padding-top: 20px;
+  text-align: left;
+  aling-content: left;
+  color: #0000;
+  h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  p {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+`;
+export const LinkWrapper = styled.div`
+  width: 100%;
+  display: flex;
+  margin: auto;
+`;
+export const Link = styled.div`
+  height: 50px;
+  width: 35%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid #000000;
+  margin: 10px 5px;
+
+  a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  :hover {
+    background-color: crimson;
+    border-style: hidden;
+    a {
+      color: #ffff;
     }
   }
 `;

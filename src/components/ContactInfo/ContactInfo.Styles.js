@@ -48,6 +48,11 @@ export const Cards = styled.div`
   p {
     font-size: 1.5rem;
   }
+  a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+  }
  
 
   @media screen and (max-width: 768px) {

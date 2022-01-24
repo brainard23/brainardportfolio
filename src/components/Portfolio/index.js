@@ -6,10 +6,18 @@ import {
   Images,
   Projects,
   Header,
+  Link,
+  Content,
+  LinkWrapper,
 } from "../Portfolio/Portfolio.Styles";
 import { PortfolioInfo } from "./PortfolioInfo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAngleRight, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleRight,
+  faAngleLeft,
+  faLink,
+} from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Portfolio = ({ slides }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -46,10 +54,30 @@ const Portfolio = ({ slides }) => {
               {index === currentSlide && (
                 <Projects>
                   <img src={slider.images} alt="images" />
-                  <div>
+                  <Content>
                     <h1>{slider.title}</h1>
                     <p>Technology used: {slider.used.join(", ")}</p>
-                  </div>
+                    <LinkWrapper>
+                      {slider.link.length === 0 ? (
+                        ""
+                      ) : (
+                        <Link>
+                          <a
+                            href={slider.link}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <FontAwesomeIcon icon={faLink} /> PROJECT
+                          </a>
+                        </Link>
+                      )}
+                      {slider.git.length === 0 ? '' :  <Link>
+                        <a href={slider.git} target="_blank" rel="noreferrer">
+                          <FontAwesomeIcon icon={faGithub} /> GITHUB
+                        </a>
+                      </Link> }
+                    </LinkWrapper>
+                  </Content>
                 </Projects>
               )}
             </Images>
