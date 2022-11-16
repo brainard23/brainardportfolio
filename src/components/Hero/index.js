@@ -20,7 +20,7 @@ const Hero = () => {
                 }}
               />
             </h1>
-            <p>Web Developer</p>
+            <p>Associate Software Engineer</p>
             <a href="#contact">
               <Red>CONTACT ME </Red>
             </a>
